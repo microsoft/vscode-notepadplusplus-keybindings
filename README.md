@@ -2,23 +2,17 @@
 
 This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Notepad++ are now available. 
 
-## Why doesn't some Atom commands work? 
+## What keyboard shortcuts are included?
 
-This is because VS Code has not implemented those features. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
-
-Additionally, you can install an extension for many of these features:
-
-* [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=peterjuras.fontsize-shortcuts)
-* [change case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-* [transpose](https://marketplace.visualstudio.com/items?itemName=v4run.transpose)
+Nothing yet.
 
 ## How do I contribute a keyboard shortcut?
 
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
 
-1. Head over to our [GitHub repository](https://github.com/waderyan/vscode-atom-keybindings). 
-2. Open [`package.json`](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json). 
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json#L25) as seen below. 
+1. Head over to our [GitHub repository](https://github.com/Microsoft/vscode-notepadplusplus-keybindings). 
+2. Open [`package.json`](https://github.com/Microsoft/vscode-notepadplusplus-keybindings/blob/master/package.json). 
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/Microsoft/vscode-notepadplusplus-keybindings/blob/master/package.json#L16) as seen below. 
 4. Open a pull request. 
 
 ```json
@@ -32,9 +26,6 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 ```
 
 You can read more about how to contribute keybindings in extensions in the [official documentation](http://code.visualstudio.com/docs/extensionAPI/extension-points#_contributeskeybindings). 
-
-## What keyboard shortcuts are included?
-
 
 # Contributing
 
