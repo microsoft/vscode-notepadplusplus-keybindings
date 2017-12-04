@@ -214,6 +214,16 @@
                 "key": "shift+insert",
                 "command": "editor.action.clipboardPasteAction",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+down",
+                "command": "editor.action.moveLinesDownAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+up",
+                "command": "editor.action.moveLinesUpAction",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
