@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 // Get keybindings from package.json
-const keybindings = require('./package.json').contributes.keybindings
+const keybindings = require('../package.json').contributes.keybindings
 
 // Markdown content structure
 const headerContent = `| Command | Key |
