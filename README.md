@@ -63,7 +63,11 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 
 You can read more about how to contribute keybindings in extensions in the [official documentation](http://code.visualstudio.com/docs/extensionAPI/extension-points#_contributeskeybindings). 
 
-# Contributing
+## Mapping between VS Code and Notepad++
+
+See https://docs.google.com/spreadsheets/d/1CUV0ZZHcI8NM7a5YiPbsPrKQRR59MY5n24qRza6UvNs/edit?usp=sharing
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
