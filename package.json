@@ -229,6 +229,10 @@
                 "key": "ctrl+l",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+c",
+                "command": "columnSelect"
             }
         ]
     },
