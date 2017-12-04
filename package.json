@@ -10,7 +10,7 @@
     "categories": ["Keymaps"],
     "keywords": ["keybindings", "keymap"],
     "preview": true,
-    "icon": "notepad-keyboard-padded.png",
+    "icon": "icon.png",
     "activationEvents": ["*"],
     "contributes": {
         "keybindings": [
