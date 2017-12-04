@@ -224,6 +224,11 @@
                 "key": "ctrl+shift+up",
                 "command": "editor.action.moveLinesUpAction",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+l",
+                "command": "editor.action.deleteLines",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
