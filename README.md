@@ -41,7 +41,20 @@ This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code.
 | editor.action.transformToLowercase | ctrl+u 
 | editor.action.transformToUppercase | ctrl+shift+u 
 | editor.action.jumpToBracket | ctrl+b 
-
+| cursorColumnSelectDown | shift+alt+down 
+| cursorColumnSelectLeft | shift+alt+left 
+| cursorColumnSelectPageDown | shift+alt+pagedown 
+| cursorColumnSelectPageUp | shift+alt+pageup 
+| cursorColumnSelectRight | shift+alt+right 
+| cursorColumnSelectUp | shift+alt+up 
+| workbench.action.nextEditor | ctrl+pageup 
+| workbench.action.previousEditor | ctrl+pagedown 
+| editor.action.clipboardCopyAction | ctrl+insert 
+| editor.action.clipboardPasteAction | shift+insert 
+| editor.action.moveLinesDownAction | ctrl+shift+down 
+| editor.action.moveLinesUpAction | ctrl+shift+up 
+| editor.action.deleteLines | ctrl+l 
+| columnSelect | alt+c 
 
 ## How do I contribute a keyboard shortcut?
 
