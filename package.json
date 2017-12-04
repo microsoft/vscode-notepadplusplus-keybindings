@@ -209,6 +209,11 @@
                 "key": "ctrl+insert",
                 "command": "editor.action.clipboardCopyAction",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+insert",
+                "command": "editor.action.clipboardPasteAction",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
