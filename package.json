@@ -204,6 +204,11 @@
             {
                 "key": "ctrl+pagedown",
                 "command": "workbench.action.previousEditor"
+            },
+            {
+                "key": "ctrl+insert",
+                "command": "editor.action.clipboardCopyAction",
+                "when": "editorTextFocus"
             }
         ]
     },
