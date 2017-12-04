@@ -4,7 +4,41 @@ This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code.
 
 ## What keyboard shortcuts are included?
 
-Nothing yet.
+| Command | Key |
+| :---------: | :---------: |
+| workbench.action.toggleFullScreen | f10 
+| editor.foldAll | alt+0 
+| editor.foldLevel1 | alt+1 
+| editor.foldLevel2 | alt+2 
+| editor.foldLevel3 | alt+3 
+| editor.foldLevel4 | alt+4 
+| editor.foldLevel5 | alt+5 
+| editor.foldLevel6 | alt+6 
+| editor.foldLevel7 | alt+7 
+| editor.foldLevel8 | alt+8 
+| editor.unfoldAll | shift+alt+0 
+| editor.action.startFindReplaceAction | ctrl+h 
+| editor.action.nextMatchFindAction | f4 
+| editor.action.previousMatchFindAction | shift+f4 
+| editor.action.jumpToBracket | ctrl+b 
+| editor.action.clipboardCutAction | shift+delete 
+| undo | alt+backspace 
+| redo | ctrl+y 
+| editor.action.copyLinesDownAction | ctrl+d 
+| editor.action.joinLines | ctrl+j 
+| editor.action.addCommentLine | ctrl+q 
+| editor.action.removeCommentLine | ctrl+shift+q 
+| editor.action.addCommentLine | ctrl+k 
+| editor.action.blockComment | ctrl+shift+k 
+| deleteAllLeft | ctrl+shift+backspace 
+| workbench.action.files.saveAs | ctrl+alt+s 
+| workbench.action.quit | alt+f4 
+| workbench.action.closeActiveEditor | ctrl+w 
+| deleteAllRight | shift+cmd+delete 
+| editor.action.transformToLowercase | ctrl+u 
+| editor.action.transformToUppercase | ctrl+shift+u 
+| editor.action.jumpToBracket | ctrl+b 
+
 
 ## How do I contribute a keyboard shortcut?
 
