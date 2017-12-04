@@ -196,6 +196,14 @@
                 "key": "shift+alt+up",
                 "command": "cursorColumnSelectUp",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+pageup",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "key": "ctrl+pagedown",
+                "command": "workbench.action.previousEditor"
             }
         ]
     },
