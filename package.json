@@ -15,12 +15,157 @@
     "contributes": {
         "keybindings": [
             {
-                "mac": "a",
-                "win": "a",
-                "linux": "a",
-                "key": "a",
-                "when": "filesExplorerFocus",
-                "command": "explorer.newFile"
+                "key": "f10",
+                "command": "workbench.action.toggleFullScreen"
+            },
+            {
+                "key": "alt+0",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+1",
+                "command": "editor.foldLevel1",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+2",
+                "command": "editor.foldLevel2",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+3",
+                "command": "editor.foldLevel3",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+4",
+                "command": "editor.foldLevel4",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+5",
+                "command": "editor.foldLevel5",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+6",
+                "command": "editor.foldLevel6",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+7",
+                "command": "editor.foldLevel7",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+8",
+                "command": "editor.foldLevel8",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+0",
+                "command": "editor.unfoldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+h",
+                "command": "editor.action.startFindReplaceAction"
+            },
+            {
+                "key": "f4",
+                "command": "editor.action.nextMatchFindAction",
+                "when": "editorFocus"
+            },
+            {
+                "key": "shift+f4",
+                "command": "editor.action.previousMatchFindAction",
+                "when": "editorFocus"
+            },
+            {
+                "key": "ctrl+b",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+delete",
+                "command": "editor.action.clipboardCutAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+backspace",
+                "command": "undo",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+y",
+                "command": "redo",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+d",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorFocus"
+            },
+            {
+                "key": "ctrl+j",
+                "command": "editor.action.joinLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+q",
+                "command": "editor.action.addCommentLine",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+q",
+                "command": "editor.action.removeCommentLine",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+k",
+                "command": "editor.action.addCommentLine",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+k",
+                "command": "editor.action.blockComment",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+backspace",
+                "command": "deleteAllLeft",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+alt+s",
+                "command": "workbench.action.files.saveAs"
+            },
+            {
+                "key": "alt+f4",
+                "command": "workbench.action.quit"
+            },
+            {
+                "key": "ctrl+w",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "key": "shift+cmd+delete",
+                "command": "deleteAllRight",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+u",
+                "command": "editor.action.transformToLowercase"
+            },
+            {
+                "key": "ctrl+shift+u",
+                "command": "editor.action.transformToUppercase"
+            },
+            {
+                "key": "ctrl+b",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
             }
         ]
     },
