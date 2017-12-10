@@ -56,6 +56,12 @@ This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code.
 | editor.action.deleteLines | ctrl+l 
 | columnSelect | alt+c 
 
+## Recommended extensions.
+
+### Bookmarks
+Looking for Bookmarks via the F2 keys? Hi! Install the Bookmark extension and map the commands to F2 keys to get similar bookmarks functionality: https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
+
+
 ## How do I contribute a keyboard shortcut?
 
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
