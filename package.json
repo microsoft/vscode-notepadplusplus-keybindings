@@ -15,8 +15,9 @@
         "activationEvents": ["*"],
         "keybindings": [
             {
-                "key": "f10",
-                "command": "workbench.action.toggleFullScreen"
+                "key": "f11",
+                "command": "workbench.action.toggleFullScreen",
+                "when": "!inDebugMode"
             },
             {
                 "key": "alt+0",
