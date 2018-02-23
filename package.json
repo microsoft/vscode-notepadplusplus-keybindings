@@ -124,6 +124,10 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
                 "key": "ctrl+k",
                 "command": "editor.action.addCommentLine",
                 "when": "editorTextFocus && !editorReadonly"
