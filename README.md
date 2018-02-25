@@ -31,6 +31,7 @@ This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code.
 | editor.action.joinLines | ctrl+j
 | editor.action.addCommentLine | ctrl+q
 | editor.action.removeCommentLine | ctrl+shift+q
+| workbench.action.files.saveAll | ctrl+shift+s
 | editor.action.addCommentLine | ctrl+k
 | editor.action.blockComment | ctrl+shift+k
 | deleteAllLeft | ctrl+shift+backspace
