@@ -12,7 +12,6 @@
     "preview": true,
     "icon": "icon.png",
     "contributes": {
-        "activationEvents": ["*"],
         "keybindings": [
             {
                 "key": "f11",
