@@ -10,7 +10,7 @@
     "categories": ["Keymaps"],
     "keywords": ["keybindings", "keymap"],
     "preview": true,
-    "extensionKind": "ui"
+    "extensionKind": "ui",
     "icon": "icon.png",
     "contributes": {
         "keybindings": [
