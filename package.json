@@ -2,13 +2,18 @@
     "name": "notepadplusplus-keybindings",
     "displayName": "Notepad++ keymap",
     "description": "Popular Notepad++ keybindings for Visual Studio Code",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.6.0"
     },
-    "categories": ["Keymaps"],
-    "keywords": ["keybindings", "keymap"],
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keybindings",
+        "keymap"
+    ],
     "preview": true,
     "extensionKind": "ui",
     "icon": "icon.png",
