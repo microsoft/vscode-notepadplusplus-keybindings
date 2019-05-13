@@ -216,12 +216,12 @@
                 "command": "workbench.action.previousEditor"
             },
             {
-                "key": "ctrl+insert",
+                "win": "ctrl+insert",
                 "command": "editor.action.clipboardCopyAction",
                 "when": "editorTextFocus"
             },
             {
-                "key": "shift+insert",
+                "win": "shift+insert",
                 "command": "editor.action.clipboardPasteAction",
                 "when": "editorTextFocus && !editorReadonly"
             },
