@@ -2,10 +2,10 @@
     "name": "notepadplusplus-keybindings",
     "displayName": "Notepad++ keymap",
     "description": "Popular Notepad++ keybindings for Visual Studio Code",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "ms-vscode",
     "engines": {
-        "vscode": "^1.6.0"
+        "vscode": "^1.40.0"
     },
     "categories": [
         "Keymaps"
@@ -15,7 +15,9 @@
         "keymap"
     ],
     "preview": true,
-    "extensionKind": "ui",
+    "extensionKind": [
+        "ui"
+    ],
     "icon": "icon.png",
     "contributes": {
         "keybindings": [
@@ -110,7 +112,7 @@
             },
             {
                 "key": "ctrl+d",
-                "command": "editor.action.copyLinesDownAction",
+                "command": "editor.action.duplicateSelection",
                 "when": "editorFocus"
             },
             {
