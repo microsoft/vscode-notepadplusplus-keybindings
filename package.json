@@ -2,7 +2,7 @@
     "name": "notepadplusplus-keybindings",
     "displayName": "Notepad++ keymap",
     "description": "Popular Notepad++ keybindings for Visual Studio Code",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.40.0"
@@ -16,7 +16,8 @@
     ],
     "preview": true,
     "extensionKind": [
-        "ui"
+        "ui",
+        "workspace"
     ],
     "icon": "icon.png",
     "contributes": {
