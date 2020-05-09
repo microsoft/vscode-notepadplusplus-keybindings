@@ -92,7 +92,7 @@
                 "when": "editorFocus"
             },
             {
-                "key": "ctrl+b",
+                "key": "ctrl+shift+b",
                 "command": "editor.action.jumpToBracket",
                 "when": "editorTextFocus"
             },
