@@ -1,9 +1,8 @@
 # Notepad++ Keymap for VS Code
 
-<img src="https://github.com/Microsoft/vscode-notepadplusplus-keybindings/blob/master/icon.png?raw=true" alt="logo" width="150">
+<img src="https://github.com/Microsoft/vscode-notepadplusplus-keybindings/blob/main/icon.png?raw=true" alt="logo" width="150">
 
-
-This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Notepad++ are now available.
+This extension ports popular Notepad++ keyboard shortcuts to Visual Studio Code. 
 
 ## What keyboard shortcuts are included?
 
