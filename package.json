@@ -244,6 +244,16 @@
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
             },
+             {
+                "key": "ctrl+alt+shift+B",
+                "command": "editor.action.pettyprint",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+             {
+                "key": "ctrl+alt+shift+M",
+                "command": "editor.action.formatJSON",
+                "when": "editorTextFocus && !editorReadonly"
+            },
             {
                 "key": "alt+c",
                 "command": "columnSelect"
