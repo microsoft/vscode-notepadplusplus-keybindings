@@ -213,11 +213,11 @@
             },
             {
                 "key": "ctrl+pageup",
-                "command": "workbench.action.nextEditor"
+                "command": "workbench.action.previousEditor"
             },
             {
                 "key": "ctrl+pagedown",
-                "command": "workbench.action.previousEditor"
+                "command": "workbench.action.nextEditor"
             },
             {
                 "win": "ctrl+insert",
